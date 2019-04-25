@@ -61,7 +61,7 @@ public class FrmBoleto extends JFrame {
 			}
 			
 		}
-		compruebaBingo(numerosSalidos);
+		compruebaBingo(numerosSalidos);										//por último comprueba si hay bingo
 	}
 
 	private void compruebaBingo(boolean[][] numerosSalidos) {					//comprobamos si hay bingo
@@ -108,7 +108,7 @@ public class FrmBoleto extends JFrame {
 				//posicionX = 46;
 				for(int col = 0; col < 9; ++col) {
 					
-					JButton btni = new JButton("");//String.valueOf(cont));
+					JButton btni = new JButton("");//String.valueOf(cont));			//declaramos los botones del carton que contendrán los numeros del mismo
 					//lbli.setBounds(posicionX, posicionY, 40 , 20);
 					btni.setFont(new Font("Magneto", Font.PLAIN, 14));
 					btni.setBackground(Color.WHITE);
